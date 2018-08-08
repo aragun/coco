@@ -1,4 +1,5 @@
 # coco
+```
 from pycocotools.coco import COCO
 
 import os
@@ -98,3 +99,4 @@ start = time.time()
 x.extractCoco(dataDir, ['person', 'chair'], '/home/cvmldevalpha/Desktop/segment', '2017')
 end = time.time()
 print('{} seconds elapsed in total.'.format(end-start))
+```
